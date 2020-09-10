@@ -1,3 +1,4 @@
+#When the fetch data option is clicked on the web application, it calls the above function to get the AD user and AD Admin user data from Windows Server.  
 from flask import Flask, request, redirect, url_for
 from flask_cors import CORS
 import json
